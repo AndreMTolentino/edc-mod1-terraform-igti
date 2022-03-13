@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "dl" {
-  bucket = "datalake-ney-igti-edc-tf"
+  bucket = "datalake-andre-tolentino-igti-edc-tf"
   acl    = "private"
 
   tags = {
@@ -15,3 +15,4 @@ resource "aws_s3_bucket" "dl" {
     }
   }
 }
+
